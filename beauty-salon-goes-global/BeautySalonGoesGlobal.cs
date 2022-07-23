@@ -19,7 +19,7 @@ public static class Appointment
 {
     public static DateTime ShowLocalTime(DateTime dtUtc)
     {
-        throw new NotImplementedException("Please implement the (static) Appointment.ShowLocalTime() method");
+        return dtUtc.ToLocalTime();
     }
 
     public static DateTime Schedule(string appointmentDateDescription, Location location)
